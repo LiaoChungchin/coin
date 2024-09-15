@@ -2,6 +2,7 @@
 **Java：8**  
 **資料庫：H2（OpenJPA / Spring Data JPA）**  
 **Spring Boot: 2.7.13**  
+
 *主要依賴如下*  
 ``` xml
 <dependency>
@@ -38,6 +39,7 @@
   <scope>test</scope>
 </dependency>
 ```
+
 # 資料庫 Table SQL 語法  
 ``` SQL
 create table coin_desk (
@@ -53,8 +55,11 @@ alter table coin_desk
 alter table coin_desk 
        add constraint UK_lpo99pg2trvnqran41vwbmpn unique (code)
 ```
-# Postman 測試(同單元測試)  
 
+# 單元測試  
+<img src="md/unittest.png">  
+
+# Postman 測試(同單元測試)  
 1.測試呼叫查詢幣別對應表資料 API，並顯示其內容。  
 <img src="md/test1.png">  
 2.測試呼叫新增幣別對應表資料 API。  
