@@ -54,9 +54,16 @@ alter table coin_desk
        add constraint UK_lpo99pg2trvnqran41vwbmpn unique (code)
 ```
 # Postman 測試(同單元測試)  
-1. 測試呼叫查詢幣別對應表資料 API，並顯示其內容。
-2. 測試呼叫新增幣別對應表資料 API。
-3. 測試呼叫更新幣別對應表資料 API，並顯示其內容。
-4. 測試呼叫刪除幣別對應表資料 API。
-5. 測試呼叫 coindesk API，並顯示其內容。
-6. 測試呼叫資料轉換的 API，並顯示其內容。
+
+1.測試呼叫查詢幣別對應表資料 API，並顯示其內容。  
+<img src="md/test1.png">  
+2.測試呼叫新增幣別對應表資料 API。  
+<img src="md/test2.png">  
+3.測試呼叫更新幣別對應表資料 API，並顯示其內容。  
+<img src="md/test3.png">  
+4.測試呼叫刪除幣別對應表資料 API。  
+<img src="md/test4.png">  
+5.測試呼叫 coindesk API，並顯示其內容。  
+<img src="md/test5.png">  
+6.測試呼叫資料轉換的 API，並顯示其內容。  
+<img src="md/test6.png">  
